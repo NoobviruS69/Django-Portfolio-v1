@@ -1,0 +1,589 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>iPortfolio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static '/img/favicon.png' %}" rel="icon">
+  <link href="{% static '/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=IBM Plex Mono' rel='stylesheet'>
+  <!-- Vendor CSS Files -->
+  <link href="{% static '/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static '/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="{% static '/css/swiper-bundle.min.css' %}">
+  <link href="{% static '/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="{% static '/img/background.jpg' %}" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Abhinav Bazaru</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-github"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-graph-up"></i> <span>skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center" style="overflow: hidden;">
+    <canvas id="demo-canvas"></canvas>
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Abhinav Bazaru</h1>
+      <p>I'm a <span class="typed" data-typed-items="Designer, Developer, Freelancer , Student"></span></p>
+      <div style="padding-left: 10px;">
+      <button style="--c:#E95A49"><i class="bx bx-file-blank"></i> Resume</button>
+      <a href="https://github.com/NOOB-VIRUS"><button style="--c:#E95A49"><i class="bx bxl-github"></i> Github</button></a>
+    </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I'm graduating as a computer science student in Manipal university jaipur Class of 2020 and my passion involve solving problems through Coding and Computer Science.
+            My interests include software design and development, artificial intelligence, computer vision, and natural language processing and Web development.
+            </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static '/img/profile-img.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Deep learning ethusiast &amp; Web Developer.</h3>
+            <p style="color: white;">
+              These are some details about me and some contact information
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li style="color: white;"><i class="uil uil-angle-double-right"></i> <strong>Birthday:</strong> <span>1 Oct 2002</span></li>
+                  <li style="color: white;"><i class="uil uil-angle-double-right"></i> <strong>Phone:</strong> <span>9505333846</span></li>
+                  <li style="color: white;"><i class="uil uil-angle-double-right"></i> <strong>City:</strong> <span>Hyderabad, India</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li style="color: white;"><i class="uil uil-angle-double-right"></i><strong>Degree:</strong> <span>bachelor's</span></li>
+                  <li style="color: white;"><i class="uil uil-angle-double-right"></i><strong>Email:</strong> <span>abhi.zurich@gmail.com</span></li>
+                  <li style="color: white;"><i class="uil uil-angle-double-right"></i><strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills alt-section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Below are some of my skills, and I'm always looking to learn more.</p>
+        </div>
+
+       
+        <section id="facts" class="facts">
+          <div class="container">
+    
+            <div class="row no-gutters" style="height: 900px;">
+    
+                
+                    <div class="col-lg-4 col-md-6">
+                      <div class="st-iconbox st-style1">
+                        <div class="st-iconbox-icon">
+                            <i class="devicon-opencv-plain"></i>
+                        </div>
+                        
+                        <h2 class="st-iconbox-title">Computer Vision, OpenCV</h2>
+                        <div class="st-iconbox-text">Good at object detection, image segmentation, and feature extraction computer vision techniques. able to implement these algorithms using a variety of tools, including PyTorch, OpenCV, and TensorFlow.</div>
+                      </div>
+                      <div class="st-height-b30 st-height-lg-b30"></div>
+                    </div><!-- .col -->
+                    <div class="col-lg-4 col-md-6">
+                      <div class="st-iconbox st-style1">
+                        <div class="st-iconbox-icon">
+                            <div class="st-iconbox-icon">       
+                            <i class="devicon-python-plain"></i>
+                            </div>
+                        </div>
+                        <h2 class="st-iconbox-title">Python</h2>
+                        <div class="st-iconbox-text">I have experience using NumPy, Pandas, Matplotlib, &amp; Scikit-learn for preprocessing, feature engineering, model selection, training, &amp; evaluation. Proficiency in writing clean, efficient code using Python.</div>
+                      </div>
+                      <div class="st-height-b30 st-height-lg-b30"></div>
+                    </div><!-- .col -->
+                    <div class="col-lg-4 col-md-6">
+                      <div class="st-iconbox st-style1">
+                        <div class="st-iconbox-icon">
+                            <i class="devicon-numpy-original"></i>
+                        </div>
+                        <h2 class="st-iconbox-title">Data Processing and Analysis</h2>
+                        <div class="st-iconbox-text">Ability to clean and preprocess large datasets, including techniques such as data imputation, outlier detection, and feature engineering. Familiarity with data cleaning tools such as Pandas and NumPy.</div>
+                      </div>
+                      <div class="st-height-b30 st-height-lg-b30"></div>
+                    </div><!-- .col -->
+                    <div class="col-lg-4 col-md-6">
+                      <div class="st-iconbox st-style1">
+                        <div class="st-iconbox-icon">
+                            <i class="devicon-minitab-plain"></i>
+                        </div>
+                        <h2 class="st-iconbox-title">Data Visualization</h2>
+                        <div class="st-iconbox-text">Proficiency in creating informative and visually appealing charts, graphs, and dashboards to present data and insights. Familiarity with data visualization tools such as Matplotlib, Seaborn, Tableau &amp; PowerBI.</div>
+                      </div>
+                      <div class="st-height-b0 st-height-lg-b30"></div>
+                    </div><!-- .col -->
+                    <div class="col-lg-4 col-md-6">
+                      <div class="st-iconbox st-style1">
+                        <div class="st-iconbox-icon">
+                          <svg width="800px" height="800px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <title>machine-learning</title>
+                            <g id="Layer_2" data-name="Layer 2">
+                              <g id="invisible_box" data-name="invisible box">
+                                <rect width="48" height="48" fill="none"></rect>
+                              </g>
+                              <g id="Q3_icons" data-name="Q3 icons">
+                                <path fill="#FFFFFF" d="M31,33a2,2,0,0,0,2-2V28h1.5a1.5,1.5,0,0,0,0-3H33V23h1.5a1.5,1.5,0,0,0,0-3H33V17a2,2,0,0,0-2-2H28V13.5a1.5,1.5,0,0,0-3,0V15H23V13.5a1.5,1.5,0,0,0-3,0V15H17a2,2,0,0,0-2,2v3H13.5a1.5,1.5,0,0,0,0,3H15v2H13.5a1.5,1.5,0,0,0,0,3H15v3a2,2,0,0,0,2,2h3v1.5a1.5,1.5,0,0,0,3,0V33h2v1.5a1.5,1.5,0,0,0,3,0V33ZM18,18H30V30H18Z"></path>
+                                <rect x="21" y="21" width="6" height="6"></rect>
+                                <g>
+                                  <path  fill="#FFFFFF"d="M45.6,18.7,41,14.9V7.5a1,1,0,0,0-.6-.9L30.5,2.1h-.4l-.6.2-.5.3v6a1.5,1.5,0,0,0,3,0V7.2l5,2.3v7.4l1.5,1.2L42,20.9v6.2l-3.5,2.8L37,31.1v7.4l-5,2.3V39.5a1.5,1.5,0,0,0-3,0v6l.5.3.6.2h.4l9.9-4.5a1,1,0,0,0,.6-.9V33.1l4.6-3.8a.9.9,0,0,0,.4-.8v-9A.8.8,0,0,0,45.6,18.7Z"></path>
+                                  <path  fill="#FFFFFF"d="M17.9,2h-.4L7.6,6.6a1,1,0,0,0-.6.9v7.4L2.4,18.7a.8.8,0,0,0-.4.8v9a.9.9,0,0,0,.4.8L7,33.1v7.4a1,1,0,0,0,.6.9l9.9,4.5h.4l.6-.2.5-.3v-6a1.5,1.5,0,0,0-3,0v1.3l-5-2.3V31.1L9.5,29.9,6,27.1V20.9l3.5-2.8L11,16.9V9.5l5-2.3V8.5a1.5,1.5,0,0,0,3,0v-6l-.5-.3Z"></path>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <h2 class="st-iconbox-title">Machine Learning</h2>
+                        <div class="st-iconbox-text">Have expertise with well-known machine learning frameworks such as TensorFlow, Keras, and PyTorch. Skills to be able to create and train machine learning models for processes involving computer vision.</div>
+                      </div>
+                      <div class="st-height-b0 st-height-lg-b30"></div>
+                    </div><!-- .col -->
+                    <div class="col-lg-4 col-md-6">
+                      <div class="st-iconbox st-style1">
+                        <div class="st-iconbox-icon">
+                          <svg fill="#FFFFFF" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve">
+            <path id="machine--learning--03_1_" d="M29.36,15.695v-3.389c0.575-0.159,1-0.681,1-1.305c0-0.75-0.61-1.36-1.36-1.36
+                c-0.191,0-0.372,0.04-0.537,0.111l-2.365-2.956C26.261,6.572,26.36,6.298,26.36,6c0-0.75-0.61-1.36-1.36-1.36
+                c-0.401,0-0.758,0.177-1.007,0.454l-3.659-1.83C20.351,3.179,20.36,3.091,20.36,3c0-0.75-0.61-1.36-1.36-1.36
+                c-0.625,0-1.147,0.425-1.306,1h-4.389c-0.159-0.575-0.681-1-1.305-1c-0.75,0-1.36,0.61-1.36,1.36c0,0.091,0.01,0.179,0.027,0.264
+                l-2.66,1.33C7.758,4.318,7.401,4.14,7,4.14c-0.75,0-1.36,0.61-1.36,1.36c0,0.273,0.082,0.526,0.221,0.739L3.598,8.785
+                C3.417,8.695,3.216,8.64,3,8.64c-0.75,0-1.36,0.61-1.36,1.36c0,0.625,0.425,1.146,1,1.305v3.389c-0.575,0.159-1,0.681-1,1.305
+                c0,0.75,0.61,1.36,1.36,1.36c0.546,0,1.014-0.325,1.231-0.791l3.424,0.571C7.726,17.824,8.298,18.36,9,18.36
+                c0.091,0,0.179-0.01,0.264-0.027l0.83,1.659C9.818,20.242,9.64,20.599,9.64,21c0,0.75,0.61,1.36,1.36,1.36
+                c0.47,0,0.885-0.24,1.13-0.604l3.518,1.173C15.646,22.953,15.64,22.976,15.64,23c0,0.625,0.425,1.147,1,1.306v3.388
+                c-0.575,0.159-1,0.681-1,1.306c0,0.75,0.61,1.36,1.36,1.36s1.36-0.61,1.36-1.36c0-0.624-0.425-1.147-1-1.306v-3.389
+                c0.575-0.159,1-0.681,1-1.306c0-0.452-0.224-0.85-0.564-1.098l0.682-1.82l3.163,0.904c0,0.005-0.001,0.01-0.001,0.015
+                c0,0.624,0.425,1.147,1,1.306v5.389c-0.575,0.159-1,0.681-1,1.306c0,0.75,0.61,1.36,1.36,1.36s1.36-0.61,1.36-1.36
+                c0-0.624-0.425-1.147-1-1.306v-5.389c0.575-0.159,1-0.681,1-1.306c0-0.149-0.03-0.29-0.074-0.424l3.828-2.553
+                C28.353,18.231,28.66,18.36,29,18.36c0.75,0,1.36-0.61,1.36-1.36C30.36,16.376,29.935,15.854,29.36,15.695z M21.354,14.932
+                c-0.002-0.045-0.007-0.09-0.014-0.134l3.049-1.355l3.313,2.899L21.354,14.932z M20,15.64c-0.353,0-0.64-0.287-0.64-0.64
+                s0.287-0.64,0.64-0.64s0.64,0.287,0.64,0.64S20.353,15.64,20,15.64z M20,13.64c-0.75,0-1.36,0.61-1.36,1.36
+                c0,0.452,0.224,0.85,0.564,1.097l-1.166,3.11l-1.902-0.543l-1.465-5.126l5.463-3.756l0.628,0.489l3.028,2.65l-2.745,1.22
+                C20.796,13.838,20.423,13.64,20,13.64z M9.131,15.653L8.122,9.85l3.612-0.361V9.485C11.93,9.995,12.421,10.36,13,10.36
+                c0.005,0,0.009-0.001,0.014-0.001l0.823,2.879l-3.966,2.726C9.666,15.792,9.412,15.681,9.131,15.653z M13,9.64
+                c-0.353,0-0.64-0.287-0.64-0.64S12.647,8.36,13,8.36S13.64,8.647,13.64,9S13.353,9.64,13,9.64z M10.28,16.557l3.765-2.589
+                l1.275,4.463l-4.962-1.418c0-0.005,0.001-0.009,0.001-0.014C10.36,16.844,10.328,16.697,10.28,16.557z M24.129,7.036
+                C24.366,7.235,24.667,7.36,25,7.36c0.191,0,0.372-0.04,0.537-0.111l2.365,2.955C27.739,10.428,27.64,10.702,27.64,11
+                c0,0.069,0.01,0.135,0.02,0.201l-3.144,1.397l-3.295-2.883l-0.464-0.361L24.129,7.036z M28.251,15.866l-3.138-2.745l2.841-1.262
+                c0.176,0.213,0.412,0.371,0.686,0.446v3.389C28.501,15.733,28.369,15.789,28.251,15.866z M29.64,11c0,0.353-0.287,0.64-0.64,0.64
+                s-0.64-0.287-0.64-0.64s0.287-0.64,0.64-0.64S29.64,10.647,29.64,11z M25,5.36c0.353,0,0.64,0.287,0.64,0.64S25.353,6.64,25,6.64
+                S24.36,6.353,24.36,6S24.647,5.36,25,5.36z M19,2.36c0.353,0,0.64,0.287,0.64,0.64S19.353,3.64,19,3.64S18.36,3.353,18.36,3
+                S18.647,2.36,19,2.36z M19,4.36c0.401,0,0.758-0.177,1.007-0.454l3.659,1.83C23.649,5.821,23.64,5.909,23.64,6
+                c0,0.156,0.032,0.303,0.08,0.443l-3.56,2.448l-6.904-5.37c0.021-0.051,0.035-0.106,0.05-0.161h4.389
+                C17.853,3.935,18.375,4.36,19,4.36z M12,2.36c0.353,0,0.64,0.287,0.64,0.64S12.353,3.64,12,3.64S11.36,3.353,11.36,3
+                S11.647,2.36,12,2.36z M10.993,3.906C11.242,4.182,11.599,4.36,12,4.36c0.304,0,0.583-0.104,0.81-0.274l6.728,5.232l-5.075,3.489
+                l-0.757-2.65C14.096,9.918,14.36,9.491,14.36,9c0-0.75-0.61-1.36-1.36-1.36c-0.673,0-1.229,0.492-1.337,1.135V8.772L7.998,9.138
+                l-0.42-2.412C8.039,6.508,8.36,6.042,8.36,5.5c0-0.091-0.01-0.179-0.027-0.264L10.993,3.906z M4.265,9.511
+                C4.231,9.423,4.19,9.339,4.139,9.261l2.263-2.546c0.143,0.071,0.3,0.115,0.467,0.132L7.28,9.21L4.265,9.511z M7,4.86
+                c0.353,0,0.64,0.287,0.64,0.64S7.353,6.14,7,6.14S6.36,5.853,6.36,5.5S6.647,4.86,7,4.86z M2.36,10c0-0.353,0.287-0.64,0.64-0.64
+                S3.64,9.647,3.64,10S3.353,10.64,3,10.64S2.36,10.353,2.36,10z M3,16.64c-0.353,0-0.64-0.287-0.64-0.64S2.647,15.36,3,15.36
+                S3.64,15.647,3.64,16C3.64,16.353,3.353,16.64,3,16.64z M7.769,16.43l-3.424-0.571c-0.059-0.561-0.455-1.018-0.986-1.165v-3.389
+                c0.503-0.139,0.888-0.556,0.977-1.077l3.067-0.307l1.018,5.853C8.135,15.91,7.904,16.142,7.769,16.43z M8.36,17
+                c0-0.353,0.287-0.64,0.64-0.64S9.64,16.647,9.64,17S9.353,17.64,9,17.64S8.36,17.353,8.36,17z M11,21.64
+                c-0.353,0-0.64-0.287-0.64-0.64s0.287-0.64,0.64-0.64s0.64,0.287,0.64,0.64S11.353,21.64,11,21.64z M12.353,21.071
+                c0.001-0.024,0.007-0.047,0.007-0.071c0-0.75-0.61-1.36-1.36-1.36c-0.091,0-0.179,0.01-0.264,0.027l-0.83-1.659
+                c0.098-0.088,0.182-0.189,0.251-0.302l5.396,1.541l0.742,2.596c-0.168,0.103-0.315,0.238-0.425,0.402L12.353,21.071z M17.64,29
+                c0,0.353-0.287,0.64-0.64,0.64c-0.353,0-0.64-0.287-0.64-0.64s0.287-0.64,0.64-0.64C17.353,28.36,17.64,28.647,17.64,29z M17,23.64
+                c-0.353,0-0.64-0.287-0.64-0.64s0.287-0.64,0.64-0.64c0.353,0,0.64,0.287,0.64,0.64S17.353,23.64,17,23.64z M17.121,21.652
+                C17.08,21.648,17.041,21.64,17,21.64c-0.005,0-0.009,0.001-0.014,0.001l-0.618-2.162l1.416,0.404L17.121,21.652z M18.732,19.406
+                l1.147-3.059c0.041,0.004,0.08,0.012,0.121,0.012c0.519,0,0.967-0.296,1.196-0.725l6.451,1.433c0.006,0.124,0.03,0.243,0.068,0.356
+                l-3.828,2.553C23.647,19.769,23.34,19.64,23,19.64c-0.491,0-0.918,0.264-1.158,0.655L18.732,19.406z M23.64,29
+                c0,0.353-0.287,0.64-0.64,0.64s-0.64-0.287-0.64-0.64s0.287-0.64,0.64-0.64S23.64,28.647,23.64,29z M23,21.64
+                c-0.353,0-0.64-0.287-0.64-0.64s0.287-0.64,0.64-0.64s0.64,0.287,0.64,0.64S23.353,21.64,23,21.64z M29,17.64
+                c-0.353,0-0.64-0.287-0.64-0.64c0-0.353,0.287-0.64,0.64-0.64s0.64,0.287,0.64,0.64C29.64,17.353,29.353,17.64,29,17.64z"></path>
+            <rect id="_Transparent_Rectangle" style="fill:none;" width="32" height="32"></rect>
+            </svg>
+                        </div>
+                        <h2 class="st-iconbox-title">Deep Learning</h2>
+                        <div class="st-iconbox-text">I am familiar with various deep learning techniques such as convolutional neural networks (CNNs), LSTMS ETC. and I am capable of designing, implementing, and fine-tuning models for computer vision problems.</div>
+                      </div>
+                      <div class="st-height-b0 st-height-lg-b30"></div>
+                    </div><!-- .col -->
+                  
+    
+            </div>
+
+    
+          </div>
+        </section>
+
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume section-bg" style="color: white;">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Experience</h2>
+          <p>My endeavours in various technical and non-technical persuits</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+
+
+            <h3 class="resume-title">Personal Projects</h3>
+            <div class="resume-item">
+              <h4>Computer vision</h4>
+              <h5>2023 - 2022</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Machine learning internship program - Intel</h4>
+              <h5>2023 - Present</h5>
+              <p><em>Worked on Intel's Digital readiness program</em></p>
+              <ul>
+                <li>EAuto - Built a computer vision model for Automobile company to collect customer info data for analysis and prediction</li>
+                <li>Amazon prodcut Analysis - Used NLP for sentiment analysis and text summarization for amazon product dataset to process various information present within a product page efficiently.</li>
+                <li>Crypto analysis - Bitcoin price analysis and forcasting using various time series prediction models</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio alt-section-bg">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>Here you can see some of the projects I've done on my own time. They range over various Technologies such as machine learning , web development , data analysis etc.</p>
+          </div>
+  
+        <div class="portfolio__container container swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-css-mode">
+            
+            <div class="swiper-wrapper" id="swiper-wrapper-4efae5d1c5a2752d" aria-live="polite"><div class="portfolio__content grid swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="8" style="width: 560px;" role="group" aria-label="1 / 11">
+                    <img src="{% static '/img/portfolio/gym-site.jpeg' %}" alt="" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Tofu - Deep Learning Framework</h3>
+                        <p class="portfolio__description">Tofu is a Deep Learning Framework for Python, C, C++, and Java that aims to deliver high user-friendliness 
+                            and user-experience simplifying technicality and improving accessibility to common people.</p>
+                        <a href="https://github.com/aksh-ai/tofu" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 560px;" role="group" aria-label="2 / 11">
+                    <img src="{% static '/img/portfolio/gym-site.jpeg' %}" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Drive AI - Warning System for Drivers</h3>
+                        <p class="portfolio__description">Uses Computer Vision &amp; Deep Learning that is capable of detecting traffic signs &amp; signals, driver drowsiness, 
+                            lane changes, pedestrian movements, &amp; sensor features (similar to autonomous driving) which are analyzed by a sophisticated system to warn the driver.</p>
+                        <a href="https://github.com/aksh-ai/drive-ai" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="1" style="width: 560px;" role="group" aria-label="3 / 11">
+                    <img src="{% static '/img/portfolio/gym-site.jpeg' %}" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">OnlyGANs</h3>
+                        <p class="portfolio__description">
+                            An Open-source end-to-end library containing all implementations of GANs with pretrained weights, training &amp; evaulating functionalities, and other zero-shot features. Under early-development stages.
+                        </p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            In Dev
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="2" style="width: 560px;" role="group" aria-label="4 / 11">
+                    <img src="{% static '/img/portfolio/gym-site.jpeg' %}" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Style Transfer</h3>
+                        <p class="portfolio__description">A style-transfer application that can apply art styles or textures over new images.</p>
+                        <a href="https://github.com/aksh-ai/style-transfer" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="3" style="width: 560px;" role="group" aria-label="5 / 11">
+                    <img src="./assets/img/image-sr.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Image Super-Resolution GAN</h3>
+                        <p class="portfolio__description">Generating super-resolution images from low-resolution images 
+                            using Super Resolution Generative Adversarial Network that looks photo-realistic.</p>
+                        <a href="https://github.com/aksh-ai/image-super-resolution" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="4" style="width: 560px;" role="group" aria-label="6 / 11">
+                    <img src="./assets/img/neuralBlack.png" alt="neural black vector art" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Neural Black - Brain Tumor Diagnosis System</h3>
+                        <p class="portfolio__description">
+                            Neural Black is a complete brain tumor detection, classification, and diagnosis system with high accuracy that uses state of the art Deep Learning methods.
+                        </p>
+                        <a href="https://github.com/aksh-ai/neuralBlack" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                  
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="5" style="width: 560px;" role="group" aria-label="7 / 11">
+                    <img src="./assets/img/third-eye.png" alt="Third Eye vector art" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Third Eye - Intrusion Detection System</h3>
+                        <p class="portfolio__description">
+                            A Hybrid Intrusion Detection system with firewall that uses Machine Learning to detect network intrusions 
+                            by analyzing network traffic data and extra environmental features.
+                        </p>
+                        <a href="https://github.com/aksh-ai/third-eye-ids" class="button button--flex button--small portfolio__button">
+                            In Dev
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="6" style="width: 560px;" role="group" aria-label="8 / 11">
+                    <img src="./assets/img/malware.png" alt="Malware icon" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Malware Prediction</h3>
+                        <p class="portfolio__description">
+                            Malware Prediction for portable executable applications using Machine Learning to predict if an executable program is a malware or is in a risk to get attacked
+                        </p>
+                        <a href="https://github.com/aksh-ai/pe_malware_prediction" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide" data-swiper-slide-index="7" style="width: 560px;" role="group" aria-label="9 / 11">
+                    <img src="./assets/img/stock-bot.png" alt="Stock bot icon" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Stock Bot</h3>
+                        <p class="portfolio__description">A simple stock bot that uses Reinforcement Learning (Deep Q Learning) to sell, hold or 
+                            buy stocks by taking decisions automatically. Simulates profit and loss based on stock investments</p>
+                        <a href="https://github.com/aksh-ai/stock_bot" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="8" style="width: 560px;" role="group" aria-label="10 / 11">
+                    <img src="./assets/img/tofu.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Tofu - Deep Learning Framework</h3>
+                        <p class="portfolio__description">Tofu is a Deep Learning Framework for Python, C, C++, and Java that aims to deliver high user-friendliness 
+                            and user-experience simplifying technicality and improving accessibility to common people.</p>
+                        <a href="https://github.com/aksh-ai/tofu" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            <div class="portfolio__content grid swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 560px;" role="group" aria-label="11 / 11">
+                    <img src="./assets/img/drive-ai.jpg" alt="Drive AI vector art" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Drive AI - Warning System for Drivers</h3>
+                        <p class="portfolio__description">Uses Computer Vision &amp; Deep Learning that is capable of detecting traffic signs &amp; signals, driver drowsiness, 
+                            lane changes, pedestrian movements, &amp; sensor features (similar to autonomous driving) which are analyzed by a sophisticated system to warn the driver.</p>
+                        <a href="https://github.com/aksh-ai/drive-ai" class="button button--flex button--small portfolio__button">
+                            View
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div></div>
+
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4efae5d1c5a2752d">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4efae5d1c5a2752d">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 9"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        
+    </section>
+ <!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static '/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static '/vendor/aos/aos.js' %}"></script>
+  <script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static '/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static '/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static '/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static '/vendor/typed.js/typed.umd.js' %}"></script>
+  <script src="{% static '/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static '/vendor/php-email-form/validate.js' %}"></script>
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="{% static '/js/main.js' %}"></script>
+  <script src="{% static '/js/animation.js' %}"></script>
+
+</body>
+
+</html>
